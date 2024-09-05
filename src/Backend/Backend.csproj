@@ -22,4 +22,9 @@
     <ProjectReference Include="..\ServiceDefaults\ServiceDefaults.csproj" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <LocalEmbeddingsModelUrl>https://hf-mirror.com/TaylorAI/gte-tiny/resolve/main/onnx/model_quantized.onnx</LocalEmbeddingsModelUrl>
+    <LocalEmbeddingsVocabUrl>https://hf-mirror.com/TaylorAI/gte-tiny/resolve/main/vocab.txt</LocalEmbeddingsVocabUrl>
+  </PropertyGroup>
+  
 </Project>
